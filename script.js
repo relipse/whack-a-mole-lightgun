@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     startGame = setInterval(() => {
         showMole();
-    }, 600);
+    }, 5000);
 });
 
 // shows mole
@@ -58,5 +58,5 @@ function getRandomValue(){
 function hideMole(moleItem){
     setTimeout(() => {
         moleItem.classList.remove('mole-appear');
-    }, 1000);
+    }, 3000);
 }
